@@ -22,7 +22,7 @@ def main():
     print(Fore.BLUE + "1. BotGenerator" + Style.RESET_ALL)
     print(Fore.BLUE + "2. Tutorial" + Style.RESET_ALL)
     print(Fore.BLUE + "3. Ticket" + Style.RESET_ALL)
-    print(Fore.BLUE + "4. Suggestions" + Style.RESET_ALL)
+    print(Fore.BLUE + "4. AI ChatBot" + Style.RESET_ALL)
     
     choice = input("Enter your choice: ")
     
@@ -34,10 +34,10 @@ def main():
         download_extract_repo('https://github.com/RlxChap2/Tutorial/archive/refs/heads/main.zip')
     elif choice == '3':
         print(Fore.YELLOW + "Downloading Ticket..." + Style.RESET_ALL)
-        download_extract_repo('https://github.com/RlxChap2/Tutorial/archive/refs/heads/main.zip')
+        download_extract_repo('https://github.com/DJj123dj/open-ticket/archive/refs/heads/main.zip')
     elif choice == '4':
-        print(Fore.YELLOW + "Downloading Suggestions..." + Style.RESET_ALL)
-        download_extract_repo('https://github.com/RlxChap2/Tutorial/archive/refs/heads/main.zip')
+        print(Fore.YELLOW + "Downloading AI ChatBot..." + Style.RESET_ALL)
+        download_extract_repo('https://github.com/anasselhoud/AI-ChatBot/archive/refs/heads/main.zip')
     else:
         print(Fore.RED + "Invalid choice." + Style.RESET_ALL)
 
