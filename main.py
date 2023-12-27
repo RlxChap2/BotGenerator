@@ -21,6 +21,8 @@ def main():
     print(Fore.BLUE + "Choose a bot project:" + Style.RESET_ALL)
     print(Fore.BLUE + "1. BotGenerator" + Style.RESET_ALL)
     print(Fore.BLUE + "2. Tutorial" + Style.RESET_ALL)
+    print(Fore.BLUE + "3. Tutorial" + Style.RESET_ALL)
+    print(Fore.BLUE + "4. Tutorial" + Style.RESET_ALL)
     
     choice = input("Enter your choice: ")
     
