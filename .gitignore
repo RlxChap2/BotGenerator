@@ -1,2 +1,5 @@
+build
 dist
+gui_images
 test
+main.spec
