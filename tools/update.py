@@ -35,11 +35,11 @@ class Update():
             choice = input('\nWould you like to update? (y/n): ')
             if choice.lower() == 'y':
                 new_version_source = requests.get(self.zipfile)
-                with open("Luna-Grabber-main.zip", 'wb')as zipfile:
+                with open("BotGenerator-main.zip", 'wb')as zipfile:
                     zipfile.write(new_version_source.content)
-                with ZipFile("Luna-Grabber-main.zip", 'r') as filezip:
+                with ZipFile("BotGenerator-main.zip", 'r') as filezip:
                     filezip.extractall(path=os.path.join(os.path.expanduser("~"), "Desktop"))
-                os.remove("Luna-Grabber-main.zip")
+                os.remove("BotGenerator-main.zip")
                 print('The new version is now on your desktop.\nUpdate Complete!')
                 print("Exiting...")
                 sleep(5)
