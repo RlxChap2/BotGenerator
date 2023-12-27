@@ -20,3 +20,6 @@ cd tools
 title Checking for updates
 echo Checking for updates...
 python update.py
+
+title Running main.py
+python main.py
